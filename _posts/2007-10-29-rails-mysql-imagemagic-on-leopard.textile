@@ -1,0 +1,72 @@
+---
+layout: single
+title: Rails, MySQL and ImageMagick on OS X Leopard
+---
+
+### {{ page.title }}
+
+_EDIT: This most likely completely out of date. I'll update when I have the chance to do a clean install. Although that's likely to be on Snow Loepard._
+
+Just a note to myself for getting my other machines Rails environments up and running properly. Basically a collection of info from the "Rails Weblog":http://weblog.rubyonrails.com/2007/10/26/today-is-leopard-day "Angry Fly":http://angry-fly.com/index.cfm/2007/10/26/Fix-for-MySQL-on-Leopard and "NullStyle":http://nullstyle.com/2007/10/27/how-to-build-imagemagick-and-install-rmagick-with-macports-on-mac-os-x-leopard/
+
+Thanks guys!
+
+Rails 1.2.3 comes pre-installed on Leopard. To get the rest of the environment up:
+
+*Update gems*
+
+<code>
+sudo gem update
+</code>
+
+Install MySQL package
+From the "usual place":http://dev.mysql.com/downloads/mysql/5.0.html
+
+*Install the Ruby MySQL bindings*
+
+<code>
+sudo env RC_ARCHS=i386 gem install mysql -- --with-mysql-config=/usr/local/mysql/bin/mysql_config
+</code>
+
+Update: If you’re on PowerPC, instead of the above, use one of the following commands (depending if you’re 32 or 64bi). Thanks to Henry for the tip in the comments!
+
+<code>
+sudo env RC_ARCHS=ppc gem install mysql -- --with-mysql-config=/usr/local/mysql/bin/mysql_config
+sudo env RC_ARCHS=ppc64 gem install mysql -- --with-mysql-config=/usr/local/mysql/bin/mysql_config
+</code>
+
+*Fix MySQL for Leopard*
+
+<code>
+cd /usr/local/mysql/lib
+sudo mkdir mysql
+cd mysql
+sudo ln -s /usr/local/mysql/lib/lib* .
+</code>
+
+Start MySQL with: (the sys prefs box doesn’t work yet)
+
+<code>
+sudo /usr/local/mysql/bin/safe_mysqld
+</code>
+
+*Now make a link to the MySQL socket*
+
+<code>
+sudo mkdir /var/mysql/
+sudo ln -s /tmp/mysql.sock /var/mysql/mysql.sock
+</code>
+
+*Install MacPorts*
+
+From "here":http://www.macports.org/
+
+*Install ImageMagick + RMagick*
+
+<code>
+sudo port install tiff -macosx
+sudo port install ImageMagick
+sudo gem install rmagick
+</code>
+
+I think that hits the main things that tripped me up. I’ll update if anything else crops up.

@@ -1,0 +1,8 @@
+---
+layout: single
+title: Moving blog to github
+---
+
+### {{ page.title }}
+
+My Wordpress install has been hacked for the last time. In process of moving blog over to github pages...

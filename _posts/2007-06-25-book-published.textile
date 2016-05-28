@@ -1,0 +1,10 @@
+---
+layout: single
+title: Book Published!
+---
+
+### {{ page.title }}
+
+Looks like my book is finally shipping!
+
+!/images/book.gif!:http://www.amazon.com/dp/1590598415?tag=alabrasblo-20

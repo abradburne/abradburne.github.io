@@ -1,0 +1,18 @@
+---
+layout: single
+title: Update
+---
+
+### {{ page.title }}
+
+Time for a status update, I reckon.
+
+So, first things first - work stuff. As some of you know, my business partner that I founded Incrediblinc with has accepted a job with Atlas Venture, a VC firm that have some very interesting stuff going on here in Europe. But it's all good - I'm in the process of starting a new company to take over where Incrediblinc left off. The company will be focused on Rails development and we have some fantastic people involved - I'm really excited. In the meantime however, I am taking on Rails development projects independently. Just drop me a line if you have a project in mind.
+
+The book is getting closer and closer to 'done' - we're in the final stages now. Phew, what an experience. I listened to everyone's warnings and tales of pain, but I ploughed ahead regardless. And I'm glad I did! I'm really pleased with the finished book, but as I'm sure is normal, would be happy continuing to add more and tweaking what's there forever. I guess you have to let go at some time. I believe we're on for a June release - I know it's going to be a tough decision between Practical Social Networking with Rails and The Deathly Hallows, but who loves ya more? Alan or J.K.?
+
+My phlog redevelopment project is coming along, but slower than I would like, simply because of the 'real' work I'm doing. But don't fear fellow-phloggers, it's shaping up to be something much cooler than I originally planned. I hope to get something out for some alpha-testing in the next month or two. Hold on in there. I've not forgotten you, I promise!
+
+On a similar note, the Incrediblinc project cudlz been put on hold for a little while. I will be re-working it to be an open not-only-UK service as soon as I have a small slither of time in my schedule (ha!)
+
+So basically, all is good and there are exciting times ahead!

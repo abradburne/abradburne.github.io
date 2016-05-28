@@ -1,0 +1,14 @@
+---
+layout: single
+title: Eddie Loves You (aka Psycho Elmo!)
+---
+
+### {{ page.title }}
+
+!/images/ely.jpg!
+
+My bestest-buddy "Karl":http://www.darklineonline.co.uk/ has finally released his award-winning short film "Eddie Loves You":http://www.darklineonline.co.uk/ely.html onto the net. It's seriously good. Bloody funny stuff.
+
+FYI, it's not exactly kid-friendly - Elmo goes psycho!
+
+"GO WATCH NOW!":http://www.darklineonline.co.uk/ely.html :)

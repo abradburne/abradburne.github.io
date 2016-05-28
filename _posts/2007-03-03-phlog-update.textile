@@ -1,0 +1,24 @@
+---
+layout: single
+title: Phlog Update
+---
+
+### {{ page.title }}
+
+_Cross posted at "phlog":http://phlog.net/news.html_
+
+Hi folks,
+
+I just wanted to give you a quick update as to where I am with regards to the phlog transfer, fixing the current site and developing the new one.
+
+All of the domain transfer stuff is in process and the domain will be back in my paws at the end of next week. At that point, the site will be running off my server and the whole exchange back from 20six will be complete. Right now, we are still running off their servers, but I have access to the server and have a complete backup on my server ready to switch as soon as the transfer is complete.
+
+In the meantime, since I have access to the current server, I have been doing some housekeeping. First thing you'll (hopefully!) notice is that there's less spam around. There is still a fair bit hanging around, but I've been tracking it down and getting rid of as much as possible. I have remove approx 1.2 million spam comments so far... I've also deactivated a number of spam blogs. However, these are a little harder to track down automatically, but we'll get rid of them all eventually. This has had the pleasant affect of speeding up the site a whole lot, so things should feel a little snappier.
+
+For some reason, 20six's mail server seems to be not accepting uploads to phlog via mail at the moment - I currently don't know why. I'm looking into it. Worst case scenario : it'll be up again as soon as it's switched to my server next week.
+
+Also, I've added CAPTCHA things to the sign-up procedure (hopefully stopping some of the spam blogs from being created) and to the guest-comment page. If you have guest-comments turned off, you obviously won't see this - but if you allow guest comments (or want to turn them back on) there's an 'enter the scrambled text in this image' thing. I'm not a big fan of captchas, but if it will stop the auto spam comments and allow genuine guest comments, I'm willing to put up with it for now. Eventually (new phlog!), there will be an option to moderate comments before they are posted (thanks for the suggestion, Ann!). Ultimately, I would love to use Akismet since it is amazingly awesome at killing spam, but it's big-bucks :( That would take a whole lot of adsense clicks to pay for that!
+
+Regarding new phlog - coding is progressing whenever I have a few spare minutes (ha!). The first draft of my book should be out of the door at end of next week(ish), so I will have more time to devote to phlog development. I've got some sketches for new designs here, which I will post in the near future to give you folks something to get excited about!
+
+Anyway, Just wanted to keep you folks in the loop. Stuff is happening :)

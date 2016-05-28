@@ -1,0 +1,10 @@
+---
+layout: single
+title: iPhone Apps
+---
+
+### {{ page.title }}
+
+Cory Doctorow came to me in a dream last night (in his steampunk van, obviously. He was a wearing a top hat too) and we talked about an iPhone app that should be written. Damn fine idea too, simple, but incredibly useful... Hacking in progress...
+
+I think I should seek help. Seriously.

@@ -1,0 +1,39 @@
+---
+layout: single
+title: Phlog Status
+---
+
+### {{ page.title }}
+
+
+_This was originally posted over at phlog.net - my update to the phlog community. Short story : It was originally my site. It got sold, it's been spammed, I'm now getting it back._
+
+Greeting fellow phloggers,
+
+I'm Alan, the original creator of phlog.net. I'm not sure how many of you know the story behind phlog and what has been going on here over the last 4 years (yes, we're over 4 years old now!), so I'm going to give a very condensed version just in case you've lost track of who and what runs the site. If it starts to bore you, skip the next few paragraph to get to the important bit!
+
+So, I wrote the first version of phlog over a long weekend and ran it from an old hand-me-down 200 MHz laptop with a broken screen on the floor of my study, over a 512Kbps ADSL line. When that started to feel the strain, I up'd to a little server in a datacentre in London. Still just running it out of my own pocket. Anyway, 20six, a German blogging company (they run myblog.de, a huge blogging site in Germany) was interested in what I was doing and bought the site, along with employing me for few days a week to work on it. We released the new version (what you're using right now) a few months later and I started working for them full time.
+
+(still with me? gooood :) ) While working for 20six, we did a lot of interesting stuff, but most of it wasn't on building out the main phlog site. A few improvements, but nothing radical. Since I had learnt a whole lot more since I wrote the first version (and the 2nd version was just built upon the 1st version), I started redeveloping a whole new and improved Phlog. Before this was released, 20six laid off most of their UK employees, including me. So they have phlog, but not me. This was over a year ago, and as most of you know, not a lot has happened around here since then apart from us getting massively spammed and the site slowing down a lot.
+
+I'm not at all blaming 20six, they have been great to me and they have had other things to deal with, but obviously it has upset me that the little site I started on the floor of my study has become rather neglected. So I have come to an arrangement with the good chaps at 20six and phlog.net is in the process of coming back home to me.
+
+*So here's the important bit - if you've been skipping paragraphs, you should start reading again now :)*
+
+OK, so yes, after over a year of being nothing to do with me, phlog is mine again. Now I hear you all asking the big question - 'what does this mean for ME?' :)
+
+So here is what's happening and my big plan...
+
+I am in the process of moving everything from the 20six servers to another server, which means I can complete the deal with 20six and have complete control again. After that the big stuff comes.
+
+The current code base is not maintainable and frankly, it scares me now. So, I'm starting afresh. But don't worry, you will NOT lose any photos or content, but right now, I'm not scared of implementing big changes. It also means that there is likely to be some disruption around here. If the site is down for a bit, or some things don't work, please don't worry. By all means, mail me and complain, but know that I am doing everything I can to get things running smoothly again.
+
+I have a lot of ideas that I would like to implement on phlog, but I am also open to suggestions. I want to keep the development and running of the new phlog as transparent as possible. I want to make this a happy place for us all to hang out again.
+
+So please bear with me for a bit. It might be a little bumpy for a while, but it will all be worth it, I promise.
+
+I hope you understand and will support me during this transition. I absolutely promise to do my best to make phlog better, faster and more fun. But I do need your help and support. If you have any thoughts, comments or suggestions, mail me. If you want to know more about what I'm planning or have concerns about the transition, mail me. If you have offers of bandwidth or hosting, mail me. If you have offers of large amounts of cash, mail me ;) Basically, I'm all ears.
+
+Anyway, I will post here as soon as there is any more updates, or you can read my regular blog over at alanbradburne.com.
+
+Keep phlogging!

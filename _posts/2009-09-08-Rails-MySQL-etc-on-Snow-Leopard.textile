@@ -1,0 +1,76 @@
+---
+layout: single
+title: Rails, MySQL and friends on Snow Leopard
+---
+
+### {{ page.title }}
+
+_These are just my notes for my archive, your mileage may vary. For the ultimate guide, see Mike Gunderloy's Definitive Guide on "A Fresh Cup":http://afreshcup.com/2009/09/02/migrating-to-snow-leopard-for-rails-development-a-definitive-guide/_
+
+
+*XCode from SL disk*
+Install straight from the Snow Leopard disk.
+
+
+*iPhone SDK*
+Install new Snow Leopard iPhone SDK from "http://developer.apple.com/iphone":http://developer.apple.com/iphone
+(um, yeah, nothing to do with Rails, just a reminder to me that it's different from the Leopard version)
+
+
+*Ports*
+blow away ports since they're broken and we're going to install stuff from source
+"http://trac.macports.org/wiki/FAQ#uninstall":http://trac.macports.org/wiki/FAQ#uninstall
+
+
+*ImageMagick*
+(from source, not ports):
+"https://github.com/maddox/magick-installer/tree":https://github.com/maddox/magick-installer/tree
+
+
+*git*
+"http://www.icoretech.org/2009/08/install-git-from-source-on-snow-leopard-64-bit/":http://www.icoretech.org/2009/08/install-git-from-source-on-snow-leopard-64-bit/ or "http://code.google.com/p/git-osx-installer/":http://code.google.com/p/git-osx-installer/
+First link (make from source) worked well for me.
+
+
+*ruby*
+Install RVM "http://rvm.beginrescueend.com/":http://rvm.beginrescueend.com/
+
+
+*MySQL*
+"http://dev.mysql.com/downloads/mysql/5.1.html#macosx-dmg":http://dev.mysql.com/downloads/mysql/5.1.html#macosx-dmg (get 64 bit version)
+
+
+*MySQL pref pane*
+A nice chap made a 64 bit version of the MySQL preference pane. Make sure you've installed the startup items from above package first.
+"http://www.swoon.net/site/software.html":http://www.swoon.net/site/software.html
+
+
+*MySQL gem*
+(from "http://gist.github.com/177368":http://gist.github.com/177368)
+<code>
+sudo gem uninstall mysql
+
+sudo env ARCHFLAGS="-arch x86_64" gem install mysql -- --with-mysql-config=/usr/local/mysql/bin/mysql_config
+</code>
+
+  
+*Update gems*
+(from "http://gist.github.com/177368":http://gist.github.com/177368)
+<code>
+irb> `gem list`.each_line {|line| `sudo env ARCHFLAGS="-arch x86_64" gem install #{line.split.first}`}
+</code>
+or... 
+"http://gist.github.com/178178":http://gist.github.com/178178 (better, I think)
+
+
+*Passenger*
+<code>
+sudo gem install -r passenger
+
+sudo passenger-install-apache2-module
+</code>
+
+
+*Passenger Preference Pane*
+New updated version of Passenger Preference Pane that is Snow Leopard compatible:
+"http://www.fngtps.com/2009/09/new-os-more-pane-passenger-preference-pane-v1-3":http://www.fngtps.com/2009/09/new-os-more-pane-passenger-preference-pane-v1-3
